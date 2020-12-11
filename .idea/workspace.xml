@@ -41,17 +41,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="533713de-87d9-4653-997b-0956840dfb06" name="Default Changelist" comment="build(rspec): adicionado html para adicionado stilo">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/growth_channel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/growth_channel.iml" afterDir="false" />
+    <list default="true" id="533713de-87d9-4653-997b-0956840dfb06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rspec" beforeDir="false" afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +87,13 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ruby" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -300,7 +294,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607389655957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build(rspec): configurations">
+      <created>1607730224562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607730224562</updated>
+    </task>
+    <task id="LOCAL-00005" summary="build(rspec): configurations">
+      <created>1607730236597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607730236597</updated>
+    </task>
+    <task id="LOCAL-00006" summary="build(rspec): configurations">
+      <created>1607730247708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607730247708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +347,8 @@
     <MESSAGE value="fix(rspec): organizado autoload" />
     <MESSAGE value="build(devise): adicionado gem devise" />
     <MESSAGE value="build(devise): adicionado html para adicionado stilo" />
-    <option name="LAST_COMMIT_MESSAGE" value="build(devise): adicionado html para adicionado stilo" />
+    <MESSAGE value="build(rspec): configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="build(rspec): configurations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2996" y="196" width="800" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607730139707">
@@ -343,62 +359,66 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2348" y="317" width="1053" height="443" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605916894071" />
-    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2" timestamp="1607730066407">
+    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2" timestamp="1607730247544">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730066407" />
+    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730247544" />
+    <state width="491" height="663" key="DebuggerActiveHint" timestamp="1607730445276">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="491" height="663" key="DebuggerActiveHint/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730445276" />
     <state x="3080" y="241" key="FileChooserDialogImpl" timestamp="1607730135994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="3080" y="241" key="FileChooserDialogImpl/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730135993" />
-    <state width="1860" height="466" key="GridCell.Tab.0.bottom" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.0.bottom" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.0.center" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.0.center" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.0.left" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.0.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.0.left" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.0.right" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.0.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.0.right" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.1.bottom" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.0.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.1.bottom" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.1.center" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.1.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.1.center" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.1.left" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.1.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.1.left" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.1.right" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.1.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.1.right" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.2.bottom" timestamp="1607730046898">
+    <state width="1860" height="466" key="GridCell.Tab.1.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.2.bottom" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046898" />
-    <state width="1860" height="466" key="GridCell.Tab.2.center" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.2.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.2.center" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.2.left" timestamp="1607730046897">
+    <state width="1860" height="466" key="GridCell.Tab.2.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.2.left" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046897" />
-    <state width="1860" height="466" key="GridCell.Tab.2.right" timestamp="1607730046898">
+    <state width="1860" height="466" key="GridCell.Tab.2.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
+    <state width="1860" height="466" key="GridCell.Tab.2.right" timestamp="1607730207941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730046898" />
+    <state width="1860" height="466" key="GridCell.Tab.2.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730207941" />
     <state x="2338" y="129" width="1074" height="819" key="RollbackChangesDialog" timestamp="1607129092698">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -415,10 +435,24 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2469" y="189" width="822" height="700" key="find.popup/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607389260834" />
-    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1607389481224">
+    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1607730270235">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607389481224" />
+    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730270235" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/spec/models/csv_spec.rb</url>
+          <line>17</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/growth_channel@All_specs_in_spec__growth_channel.rcov" NAME="All specs in spec: growth_channel Coverage Results" MODIFIED="1607384840291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
@@ -427,6 +461,6 @@
     <SUITE FILE_PATH="coverage/growth_channel@GoogleAds__Investment_List.rcov" NAME="GoogleAds::Investment List Coverage Results" MODIFIED="1607127797989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@OrganicViews__View_count.rcov" NAME="OrganicViews::View count Coverage Results" MODIFIED="1607128722759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@Validate_Format__Validate.rcov" NAME="Validate_Format::Validate Coverage Results" MODIFIED="1607127804278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
-    <SUITE FILE_PATH="coverage/growth_channel@Csv_should_create.rcov" NAME="Csv should create Coverage Results" MODIFIED="1607730021151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
+    <SUITE FILE_PATH="coverage/growth_channel@Csv_should_create.rcov" NAME="Csv should create Coverage Results" MODIFIED="1607730178617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
   </component>
 </project>
