@@ -12,9 +12,10 @@
 require 'rails_helper'
 
 RSpec.describe Csv, type: :model do
-  it 'should create' do
-    csv = FactoryBot.create(:csv)
 
-    expect(csv.name).to eq("report_adsense")
+  describe 'validations' do
+    it { should validate_presence_of(:name) }
+    it { should validate_uniqueness_of(:name) }
   end
+
 end
