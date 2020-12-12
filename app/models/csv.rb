@@ -10,4 +10,7 @@
 #  updated_at       :datetime         not null
 #
 class Csv < ApplicationRecord
+
+  validates :name, presence: true
+  validates :name, uniqueness: true
 end
