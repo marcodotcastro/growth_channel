@@ -42,14 +42,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="533713de-87d9-4653-997b-0956840dfb06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/growth_channel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/growth_channel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5f72f15-d4ab-4344-9f49-916eeb3e5f38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5f72f15-d4ab-4344-9f49-916eeb3e5f38.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/csv.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/csv.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/csvs.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/csvs.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/models/csv_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/csv_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +106,8 @@
       <recent name="$PROJECT_DIR$/lib/growth_channel/csv" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Csv should create csv_type ...">
-    <configuration name="All specs in spec: growth_channel" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.All specs in models: growth_channel">
+    <configuration type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="growth_channel" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -127,12 +125,144 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/campaign_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Video create should video" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="growth_channel" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/campaign_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Campaign create should campaign" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="growth_channel" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/campaign_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Campaign create should csv with campaign" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All specs in models: growth_channel" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <module name="growth_channel" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec/models" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Campaign create should camp..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="growth_channel" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/video_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Campaign create should campaign" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
@@ -175,112 +305,13 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Csv should create name nil" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
-      <module name="growth_channel" />
-      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/csv_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Csv should create name nil" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Csv should create" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
-      <module name="growth_channel" />
-      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/csv_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Csv should create" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Csv validations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
-      <module name="growth_channel" />
-      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/csv_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Csv validations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.All specs in models: growth_channel" />
+        <item itemvalue="RSpec.Campaign create should csv ..." />
+        <item itemvalue="RSpec.Campaign create should camp..." />
+        <item itemvalue="RSpec.Video create should video" />
         <item itemvalue="RSpec.Csv should create csv_type ..." />
-        <item itemvalue="RSpec.Csv validations" />
-        <item itemvalue="RSpec.Csv should create name nil" />
-        <item itemvalue="RSpec.Csv should create" />
-        <item itemvalue="RSpec.All specs in spec: growth_channel" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +394,35 @@
       <option name="project" value="LOCAL" />
       <updated>1607730514243</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="build(rspec): adicionado shoulda-matchers">
+      <created>1607731874142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607731874142</updated>
+    </task>
+    <task id="LOCAL-00011" summary="build(idea): adicionado arquivos">
+      <created>1607731896160</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607731896160</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(csv): adicionado validação name">
+      <created>1607731930458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607731930458</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test(csv): adicionado validação name">
+      <created>1607731943860</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607731943860</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +458,11 @@
     <MESSAGE value="build(annotate): configurations" />
     <MESSAGE value="feat(csv): adicionado model" />
     <MESSAGE value="test(csv): adicionado model" />
-    <option name="LAST_COMMIT_MESSAGE" value="test(csv): adicionado model" />
+    <MESSAGE value="build(rspec): adicionado shoulda-matchers" />
+    <MESSAGE value="build(idea): adicionado arquivos" />
+    <MESSAGE value="feat(csv): adicionado validação name" />
+    <MESSAGE value="test(csv): adicionado validação name" />
+    <option name="LAST_COMMIT_MESSAGE" value="test(csv): adicionado validação name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2996" y="196" width="800" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607730139707">
@@ -410,10 +473,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2348" y="317" width="1053" height="443" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605916894071" />
-    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2" timestamp="1607730513897">
+    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2" timestamp="1607731943743">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730513897" />
+    <state x="2249" y="9" width="1252" height="1060" key="CommitChangelistDialog2/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731943743" />
     <state width="491" height="663" key="DebuggerActiveHint" timestamp="1607730445276">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -422,54 +485,54 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="3080" y="241" key="FileChooserDialogImpl/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730135993" />
-    <state width="1860" height="466" key="GridCell.Tab.0.bottom" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.0.bottom" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.0.center" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.0.center" timestamp="1607733774933">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.0.left" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.0.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774933" />
+    <state width="1860" height="466" key="GridCell.Tab.0.left" timestamp="1607733774933">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.0.right" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.0.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774933" />
+    <state width="1860" height="466" key="GridCell.Tab.0.right" timestamp="1607733774933">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.0.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.1.bottom" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.0.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774933" />
+    <state width="1860" height="466" key="GridCell.Tab.1.bottom" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.1.center" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.1.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.1.center" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.1.left" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.1.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.1.left" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.1.right" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.1.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.1.right" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.1.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.2.bottom" timestamp="1607731637524">
+    <state width="1860" height="466" key="GridCell.Tab.1.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.2.bottom" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637524" />
-    <state width="1860" height="466" key="GridCell.Tab.2.center" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.2.bottom/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.2.center" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.2.left" timestamp="1607731637523">
+    <state width="1860" height="466" key="GridCell.Tab.2.center/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.2.left" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637523" />
-    <state width="1860" height="466" key="GridCell.Tab.2.right" timestamp="1607731637524">
+    <state width="1860" height="466" key="GridCell.Tab.2.left/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
+    <state width="1860" height="466" key="GridCell.Tab.2.right" timestamp="1607733774934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="466" key="GridCell.Tab.2.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607731637524" />
+    <state width="1860" height="466" key="GridCell.Tab.2.right/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733774934" />
     <state x="2338" y="129" width="1074" height="819" key="RollbackChangesDialog" timestamp="1607129092698">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -482,25 +545,33 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="712" height="536" key="SwitcherDM/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730814396" />
+    <state x="2511" y="298" width="728" height="477" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1607733103409">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2511" y="298" width="728" height="477" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607733103409" />
     <state x="2469" y="189" width="822" height="700" key="find.popup" timestamp="1607389260835">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2469" y="189" width="822" height="700" key="find.popup/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607389260834" />
-    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1607730270235">
+    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1607732591103">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607730270235" />
+    <state x="2459" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1041/1920.0.1920.1080@1920.0.1920.1080" timestamp="1607732591103" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/growth_channel@Video_create_should_video.rcov" NAME="Video create should video Coverage Results" MODIFIED="1607732915279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@All_specs_in_spec__growth_channel.rcov" NAME="All specs in spec: growth_channel Coverage Results" MODIFIED="1607384840291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@GoogleAds__CostBenefit_List.rcov" NAME="GoogleAds::CostBenefit List Coverage Results" MODIFIED="1607128064205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@GoogleAds__CostBenefit.rcov" NAME="GoogleAds::CostBenefit Coverage Results" MODIFIED="1607127781445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@GoogleAds__Investment_List.rcov" NAME="GoogleAds::Investment List Coverage Results" MODIFIED="1607127797989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@OrganicViews__View_count.rcov" NAME="OrganicViews::View count Coverage Results" MODIFIED="1607128722759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@Csv_validations.rcov" NAME="Csv validations Coverage Results" MODIFIED="1607731217862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
-    <SUITE FILE_PATH="coverage/growth_channel@Validate_Format__Validate.rcov" NAME="Validate_Format::Validate Coverage Results" MODIFIED="1607127804278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@Csv_should_create_name_nil.rcov" NAME="Csv should create name nil Coverage Results" MODIFIED="1607731202479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
-    <SUITE FILE_PATH="coverage/growth_channel@Csv_should_create.rcov" NAME="Csv should create Coverage Results" MODIFIED="1607731116201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
+    <SUITE FILE_PATH="coverage/growth_channel@Campaign_create_should_camp___.rcov" NAME="Campaign create should camp... Coverage Results" MODIFIED="1607733179350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
     <SUITE FILE_PATH="coverage/growth_channel@Csv_should_create_csv_type____.rcov" NAME="Csv should create csv_type ... Coverage Results" MODIFIED="1607731622956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
+    <SUITE FILE_PATH="coverage/growth_channel@Campaign_create_should_csv____.rcov" NAME="Campaign create should csv ... Coverage Results" MODIFIED="1607733404365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
+    <SUITE FILE_PATH="coverage/growth_channel@Validate_Format__Validate.rcov" NAME="Validate_Format::Validate Coverage Results" MODIFIED="1607127804278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
+    <SUITE FILE_PATH="coverage/growth_channel@Csv_should_create.rcov" NAME="Csv should create Coverage Results" MODIFIED="1607731116201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
+    <SUITE FILE_PATH="coverage/growth_channel@All_specs_in_models__growth_channel.rcov" NAME="All specs in models: growth_channel Coverage Results" MODIFIED="1607733752535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="growth_channel" />
   </component>
 </project>
