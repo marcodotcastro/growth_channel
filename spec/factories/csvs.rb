@@ -14,5 +14,12 @@ FactoryBot.define do
     name { "report_adsense" }
     importation_date { "2020-12-11 20:31:21" }
     csv_type { "adsense" }
+
+    trait :with_campaigns do
+
+      after(:create) do |csv|
+        create_list :campaign, 3, csv: csv
+      end
+    end
   end
 end
